@@ -1,0 +1,57 @@
+.main-div{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+   gap: 20px;
+   width: 100%;
+   height: 100%;
+   justify-content: center;
+   padding-left: 10px;
+
+}
+.vehicle-card{
+  height: 400px;
+  width: 300px;
+ background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 10px;
+}
+.vehicle-img-div{
+    height: 200px;
+    width: 100%;
+   
+   display: flex;
+   justify-content: center;
+    
+    
+  }
+.vehicle-img-div img{
+    height: 100%;
+}
+.car-detail-div{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 5px;
+    margin: 10px;
+}
+.rate-div{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+  }
+
+  .price-h6-tag{
+    margin-left: 5px;
+  }
+  
+  .vehicle-book-btn{
+    margin-top: 12px;
+    margin-left: 138px;
+    border-radius: 12px;
+    height: 35px;
+    width: 120px;
+    border: 0px;
+    background-color: rgb(255, 200, 40);
+  }
+   
+ 
